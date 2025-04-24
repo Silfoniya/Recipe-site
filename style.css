@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+body {
+
+    margin: 0px;
+    background-color: rgba(161, 255, 156, 1);
+
+}
+
+header {
+
+    background-color: rgba(108, 186, 140, 1);
+
+}
+
+.главDiv1 {
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+    align-items: center;
+
+
+}
+
+.лого {
+
+    height: 130px;
+    width: 130px;
+
+
+}
+
+.Название {
+    font-size: 85px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+
+}
+
+.but1 {
+
+    background: rgba(161, 255, 156, 1);
+    border: 0px solid black;
+    height: 55px;
+    width: 160px;
+    font-size: 30px;
+    border-radius: 25px;
+    font-family: 'Indie Flower', cursive;
+
+
+
+}
+
+.but1:hover {
+
+    background: rgb(129, 255, 123);
+    color: rgb(0, 0, 0);
+}
+
+.but1:active {
+
+    transform: scale(0.8);
+    transition: 100ms;
+
+}
+
+.but2 {
+
+    height: 45px;
+
+}
+
+.общФлекс {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center
+}
+
+.ФлексBut {
+
+    display: flex;
+    gap: 100px;
+    align-items: center
+}
+
+.конт1 {
+
+    display: flex;
+    gap: 30px;
+    align-items: center
+}
+
+.конт2 {
+
+    display: flex;
+    gap: 30px;
+    align-items: center
+}
+
+.Настройки {
+
+    height: 55px;
+
+}
+
+.butCart {
+
+    background-color: rgba(108, 186, 140, 1);
+    border: 0px solid black;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.butCart:active {
+
+    transform: scale(0.8);
+    transition: 100ms;
+
+}
+
+.blini{
+    height: 400px;
+    width: 650px;
+}
+.potata{
+    height: 400px;
+    width: 650px;
+}
+
+.recieppotato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.reciepblini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
