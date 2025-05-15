@@ -1,51 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel='stylesheet' href='style.css'>
-</head>   
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
 <body>
+
     <header>
+
         <div class="главDiv1">
+
             <div class="общФлекс конт1">
                 <div class="общФлекс">
                     <img class="лого" src="лого.png" alt="">
                 </div>
-                <div class="общФлекс конт2">
 
+                <div class="общФлекс конт2">
                     <h1 class="Название"> RecipeCHEF </h1>
                 </div>
+
             </div>
+
             <div class="общФлекс ФлексBut">
+
                 <div>
                     <button class="Курсы but1"> Курсы </button>
                 </div>
+
                 <div>
-                    <button class="Рецепты but1"> Назад </button>
+                    <button class="Рецепты but1"> Рецепты </button>
                 </div>
+
             </div>
+
             <div class="общФлекс">
+
                 <div>
-                    <button class="butCart"> <img class="Menu but2" src="Menu.png" alt=""> </button>
+                    <button class="butCart" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1" type="button">
+                        <img class="Menu but2" src="Menu.png" alt=""> </button>
                 </div>
+
                 <div>
-                    <button class="butCart"> <img class="Настройки but2" src="настройки-no-bg-preview (carve.photos).png" alt=""> </button>
+                    <button class="butCart" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" type="button">
+                        <img class="Настройки but2" src="настройки-no-bg-preview (carve.photos).png" alt=""> </button>
                 </div>
+
             </div>
         </div>
     </header>
-    <body class="reciep">
-        <div class="recieppotato">
-            <img class="cartinka potata" src="reciep1.png"></img>
-            <button class="Pereiti">Перейти <img src="strelka.png"></img></button>
-        </div>
-        <div class="reciepblini">
-            <img class="cartinka blini" src="reciep2.png"></img>
-            <button class="Pereiti">Перейти<img src="strelka.png"></img></button>
-        </div>
-    </body>
 
+
+    <div class="main">
+
+        <div class="left">
+
+            <div class="заголовок1">
+                <h1 class="секция1"> Что можем предложить :</h1>
+            </div>
+
+            <div>
+                <h1 class="номера">1. Самые вкусные рецепты : </h1>
+            </div>
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner Круговорот1">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="i.webp" class="d-block w-100 kartinka" alt="">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="kru.jpg" class="d-block w-100 kartinka" alt="">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="kdjv.jpg" class="d-block w-100 kartinka" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="ФлексСектор1">
+                <h2 class="h2">Разнообразные рецепты известных поваров <br>
+                    Изысканные блюда более 100 кухонь мира <br>
+                    Шедевры и классика ! ! !
+                </h2>
+                <button class="кнопиПерейти"> Перейти <b><img class="стрелка" src="стрелка.png" alt=""></b> </button>
+            </div>
+
+
+
+            <h1 class="номера номер2">
+                <b class="номера">2. Статьи известных поваров : </b>
+            </h1>
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner Круговорот1">
+
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="vid-sverhu-na-koncepciu-naturmorta-knigi-receptov.jpg"
+                            class="d-block w-100 W-1000 kartinka" alt="">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="kuhna-kulinarnaa-kniga-i-eda.jpg" class="d-block w-100 kartinka" alt="">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="professional-young-chef-cook-uniform-standing-with-notepad-kitchen_146671-38192.avif"
+                            class="d-block w-100 kartinka" alt="">
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <h1 class="номера номер2">
+                <b class="номера">3.Ценные советы от шефов :</b>
+            </h1>
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner Круговорот1">
+
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="vid-sverhu-na-koncepciu-naturmorta-knigi-receptov.jpg"
+                            class="d-block w-100 W-1000 kartinka" alt="">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="kuhna-kulinarnaa-kniga-i-eda.jpg" class="d-block w-100 kartinka" alt="">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="professional-young-chef-cook-uniform-standing-with-notepad-kitchen_146671-38192.avif"
+                            class="d-block w-100 kartinka" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel"></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel"></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+
+                <button>RU</button> <b>/</b> <button>EN</button>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <script src="script.JS"></script>
 </body>
+
+
+
+
+
 </html>
