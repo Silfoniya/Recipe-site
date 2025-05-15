@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 
-
 body {
 
     margin: 0px;
@@ -151,63 +150,17 @@ header {
 
 }
 
-.blini{
-    height: 400px;
-    width: 650px;
-}
-.potata{
-    height: 400px;
-    width: 650px;
-}
-
-.recieppotato{
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15%
-}
-
-.reciepblini{
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15%
-}
-
-.Pereiti{
-    height: 75px;
-    padding-left: 30px;
-    display: flex;
-    align-items: center;
-    background: rgb(212, 210, 196);
-    border: 0px solid black;
-    font-size: 35px;
-    border-radius: 25px;
-    padding-top: 1px;
-    margin-top: 50px;
-    margin-right: 250px;
-    box-shadow: 0px 0px 8px 1px #0000006e;
-    
-}
-
 
 main{
-    background-color: rgb(231, 229, 229);
+    display: flex;
     margin-top: 10%;
-}
-
-.Pereiti:active{
-    transform: scale(0.8);
-    transition: 100ms;
-}
-
-.Pereiti:hover{
-    color: rgb(0, 0, 0);
-    background: rgb(226, 226, 226);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cartinka{
     border-radius: 75px;
+    height: 400px;
+    width: 600px;
 }
